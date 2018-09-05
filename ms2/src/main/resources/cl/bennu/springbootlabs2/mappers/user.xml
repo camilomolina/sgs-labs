@@ -1,0 +1,32 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cl.bennu.springbootlabs2.dao.iface.IUserDAO">
+
+    <resultMap id="userResultMap" type="cl.bennu.springbootlabs2.domain.User">
+        <result column="ID" property="id"/>
+        <result column="NAME" property="name"/>
+    </resultMap>
+
+    <sql id="sqlUser">
+        SELECT ID AS ID
+          , NOMBRE AS NAME
+          FROM CLIENTE
+    </sql>
+
+    <select id="getAllUser" resultMap="userResultMap">
+        <include refid="sqlUser"/>
+    </select>
+
+    <select id="getUserById" parameterType="java.lang.Long" resultMap="userResultMap">
+        <include refid="sqlUser"/>
+        WHERE ID = #{id}
+    </select>
+
+
+<!--
+
+
+-->
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms1/ms1.iml" filepath="$PROJECT_DIR$/ms1/ms1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms2/ms2.iml" filepath="$PROJECT_DIR$/ms2/ms2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms3/ms3.iml" filepath="$PROJECT_DIR$/ms3/ms3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms4/ms4.iml" filepath="$PROJECT_DIR$/ms4/ms4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms5/ms5.iml" filepath="$PROJECT_DIR$/ms5/ms5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sgs-labs.iml" filepath="$PROJECT_DIR$/sgs-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-labs2.iml" filepath="$PROJECT_DIR$/springboot-labs2.iml" />
+    </modules>
+  </component>
+</project>

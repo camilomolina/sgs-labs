@@ -1,0 +1,21 @@
+    CREATE TABLE sgslabs.CLIENTE (
+        ID INT NOT NULL AUTO_INCREMENT,
+        NOMBRE VARCHAR(500) NULL,
+        PRIMARY KEY (ID)
+    )
+    ENGINE=InnoDB
+    DEFAULT CHARSET=utf8
+    COLLATE=utf8_general_ci;
+
+
+    CREATE TABLE sgslabs.PRODUCTO (
+        ID INT NOT NULL AUTO_INCREMENT,
+        NOMBRE VARCHAR(500) NULL,
+        FECHA DATE NULL,
+        TIPO INT NULL,
+        ACTIVO BOOLEAN NULL,
+        PRIMARY KEY (ID)
+    )
+    ENGINE=InnoDB
+    DEFAULT CHARSET=utf8
+    COLLATE=utf8_general_ci;

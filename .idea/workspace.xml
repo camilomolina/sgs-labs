@@ -86,7 +86,11 @@
       </file>
       <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="MSController.java" pinned="false" current-in-tab="false">
@@ -499,12 +503,12 @@
       <workItem from="1529365292095" duration="1242000" />
       <workItem from="1536095924051" duration="3241000" />
       <workItem from="1536099204520" duration="4006000" />
-      <workItem from="1536129449171" duration="3552000" />
+      <workItem from="1536129449171" duration="3626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71504000" />
+    <option name="totallyTimeSpent" value="71578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1920" height="1053" extended-state="6" />
@@ -850,7 +854,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

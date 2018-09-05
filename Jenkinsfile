@@ -1,16 +1,12 @@
-node {
-    def antHome
-    def mvnHome
-    def sonarHome
-
-    env.JAVA_HOME = '/usr/lib/jvm/jdk1.8.0_121'
+pipeline {
 
     stage('Environment') {
         echo 'Environment'
 
-        antHome = '/usr/local/bin/apache-ant-1.9.13'
-        mvnHome = '/usr/local/bin/apache-maven-3.5.4'
-        sonarHome = '/usr/local/sonar-scanner-3.2.0.1227-linux'
+        env.JAVA_HOME = '/usr/lib/jvm/jdk1.8.0_121'
+        def antHome = '/usr/local/bin/apache-ant-1.9.13'
+        def mvnHome = '/usr/local/bin/apache-maven-3.5.4'
+        def sonarHome = '/usr/local/sonar-scanner-3.2.0.1227-linux'
 
         sh 'printenv'
 
@@ -45,7 +41,6 @@ node {
             replyTo: "${mailRecipients}",
             recipientProviders: [[$class: 'CulpritsRecipientProvider']]
     }
-
 }
 
 

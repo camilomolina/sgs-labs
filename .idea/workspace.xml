@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7fb265-80ea-46ad-ae9c-af3118a0042e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ms1/src/main/java/cl/bennu/springbootlabs2/domain/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms1/ms1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ms1/ms1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms1/src/main/java/cl/bennu/springbootlabs2/controller/MSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms1/src/main/java/cl/bennu/springbootlabs2/controller/MSController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
@@ -505,12 +499,12 @@
       <workItem from="1529365292095" duration="1242000" />
       <workItem from="1536095924051" duration="3241000" />
       <workItem from="1536099204520" duration="4006000" />
-      <workItem from="1536129449171" duration="3425000" />
+      <workItem from="1536129449171" duration="3552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71377000" />
+    <option name="totallyTimeSpent" value="71504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1920" height="1053" extended-state="6" />
